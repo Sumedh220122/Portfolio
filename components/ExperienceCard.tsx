@@ -20,7 +20,7 @@ const ExperienceCard = (props: Props) => {
                 viewport = {{once: true}}
                 className = "w-20 h-20 rounded-full xl:w-[100px] xl:h-[100px] \
                 object-cover object-center"
-                src = "https://media.licdn.com/dms/image/v2/D560BAQH10L0-PrrdzQ/company-logo_200_200/B56ZVMXKIqGsAI-/0/1740742895116/onecap_technologies_logo?e=1760572800&v=beta&t=b_bD798VLnQc1CKd-72K4qXSC-NvL6fhf1Pbxnfwl4o"
+                src = "https://cdn.sanity.io/images/ltuexkre/production/3dd89cb2c4a16e85f5960e22a96261427d37da99-991x1801.png"
                 alt = ""
             />
 
