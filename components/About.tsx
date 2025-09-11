@@ -2,7 +2,7 @@
 
 import React from 'react'
 import {motion} from 'framer-motion';
-import image from "../src/app/Sumedh.jpg";
+import image from "../src/app/Sumedh_full.jpg";
 
 type Props = {}
 

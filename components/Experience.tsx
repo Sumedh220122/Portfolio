@@ -19,10 +19,7 @@ const Experience = (props: Props) => {
                 Experience
             </h3>
 
-            <div className = "w-full flex space-x-5 p-10 snap-x snap-mandatory">
-                <ExperienceCard/>
-                <ExperienceCard/>
-                <ExperienceCard/>
+            <div className = "w-full flex flex-row flex-nowrap space-x-5 p-10 snap-x snap-mandatory justify-center">
                 <ExperienceCard/>
             </div>
         </motion.div>

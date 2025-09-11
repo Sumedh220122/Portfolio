@@ -20,36 +20,44 @@ const ExperienceCard = (props: Props) => {
                 viewport = {{once: true}}
                 className = "w-20 h-20 rounded-full xl:w-[100px] xl:h-[100px] \
                 object-cover object-center"
-                src = "https://cdn.sanity.io/images/ltuexkre/production/3dd89cb2c4a16e85f5960e22a96261427d37da99-991x1801.png"
+                src = "https://media.licdn.com/dms/image/v2/D560BAQH10L0-PrrdzQ/company-logo_100_100/B56ZVMXKIqGsAQ-/0/1740742895116/onecap_technologies_logo?e=1760572800&v=beta&t=x-QHI7xyIpagv-OVa4K1-udEUXbKirY8vE9xgjB-ut8"
                 alt = ""
             />
 
             <div className = "px-0 md:px-10">
-                <h4 className='text-2xl font-light'>Software Engineering Intern</h4>
-                <p className = "font-bold text-2xl mt-1">OneCap</p>
+                <h4 className='text-2xl font-light text-center'>Software Engineering Intern</h4>
+                <p className = "font-bold text-2xl mt-1 text-center">OneCap</p>
                 <div className='flex space-x-2 my-2'>
                     <img className='h-10 w-10 rounded-full' 
                         src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
                     />
                     <img className='h-10 w-10 rounded-full' 
-                        src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                        src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
                     />
                     <img className='h-10 w-10 rounded-full' 
-                        src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                        src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg"
                     />
                     <img className='h-10 w-10 rounded-full' 
-                        src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                        src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"
+                    />
+                    <img className='h-10 w-10 rounded-full' 
+                        src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg"
+                    />
+                    <img className='h-10 w-10 rounded-full' 
+                        src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg"
+                    />
+                    <img className='h-10 w-10 rounded-full' 
+                        src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
                     />
                 </div>
-                <p className="uppercase py-5 text-gray-300">
-                    Started work... - Ended...
+                <p className="uppercase py-5 text-gray-300 text-center">
+                    January 2025 - July 2025
                 </p>
                 <ul className = "list-disc space-y-4 ml-5 text-sm">
-                    <li>Summary Points</li>
-                    <li>Summary Points</li>
-                    <li>Summary Points</li>
-                    <li>Summary Points</li>
-                    <li>Summary Points</li>
+                    <li>Built and maintained TypeScript services for processing financial data</li>
+                    <li>Developed data processing pipelines in Python to ingest and process financial data from various sources</li>
+                    <li>Designed Multi-Agentic assistants using LangGraph </li>
+                    <li>Deployed microservices on AWS ECS. Setup ALBs and SDks. Resolved live issues on AWS Cloud</li>
                 </ul>
             </div>
         </article>
