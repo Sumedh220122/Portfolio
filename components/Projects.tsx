@@ -6,7 +6,13 @@ import {motion} from "framer-motion";
 type Props = {}
 
 const Projects = (props: Props) => { 
-  const projects = [1, 2, 3, 4, 5]
+  const projects = [
+    {src: "https://cdn.sanity.io/images/ltuexkre/production/af7ca99b5a796d0698cf9121a4a0795b5022b6be-666x375.png", 
+      title: "Cinescope", 
+      description: "" },
+    { src: "/globe.svg", title: "Project 2", description: "Description 2..." },
+    { src: "/next.svg", title: "Project 3", description: "Description 3..." },
+  ];
   return (
       <motion.div 
       initial = {{opacity: 0}}
@@ -36,7 +42,7 @@ const Projects = (props: Props) => {
                 <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
                   <h4 className = "text-4xl font-semibold text-center">
                     <span className = "underline decoration-[#F7AB0A]/50">
-                        Case study {i + 1} of {projects.length}:
+                        Project {i + 1} of {projects.length}:
                     </span>{" "}
                     UPS clone
                   </h4>

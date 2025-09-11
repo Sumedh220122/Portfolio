@@ -21,20 +21,23 @@ const Skills = (props: Props) => {
         </h3>
 
         <div className = "grid grid-cols-4 gap-5 pt-49">
-            <Skill></Skill> 
-            <Skill></Skill>
-            <Skill></Skill>
-            <Skill></Skill>
-            <Skill></Skill>
-            <Skill></Skill>
-            <Skill></Skill>
-            <Skill></Skill>
-            <Skill></Skill>
-            <Skill></Skill>
-            <Skill></Skill>
-            <Skill></Skill>
-            <Skill></Skill>
-            <Skill></Skill>
+            <Skill src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"></Skill> 
+            <Skill src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"></Skill>
+            <Skill src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg"></Skill>
+            <Skill src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"></Skill>
+            <Skill src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg"></Skill>
+            <Skill src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"></Skill>
+            <Skill src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg"></Skill>
+            <Skill src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg"></Skill>
+            <Skill src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"></Skill>
+            <Skill src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg">
+            </Skill>
+            <Skill src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
+            </Skill>
+            <Skill src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"></Skill>
+            <Skill src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
+            </Skill>
+            <Skill src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"></Skill>
         </div>
 
     </motion.div>
