@@ -7,11 +7,23 @@ type Props = {}
 
 const Projects = (props: Props) => { 
   const projects = [
-    {src: "https://cdn.sanity.io/images/ltuexkre/production/af7ca99b5a796d0698cf9121a4a0795b5022b6be-666x375.png", 
+    {
+      src: "https://cdn.sanity.io/images/ltuexkre/production/af7ca99b5a796d0698cf9121a4a0795b5022b6be-666x375.png", 
       title: "Cinescope", 
-      description: "" },
-    { src: "/globe.svg", title: "Project 2", description: "Description 2..." },
-    { src: "/next.svg", title: "Project 3", description: "Description 3..." },
+      description: "A Movie browsing website using React.js for the frontend and Express.js for backend routing, allowing users to explore their favorite movie content." 
+    },
+    { 
+      src: "https://png.pngtree.com/png-vector/20220810/ourmid/pngtree-blogging-concept-picture-writer-laptop-png-image_5722986.png", 
+      title: "Content Posting Application", 
+      description: "Full-stack content-posting platform using Java and Spring Boot, allowing users to register, log in, manage profiles, like/dislike posts, follow/unfollow users and post content." 
+    },
+    { 
+      src: "https://www.ednc.org/wp-content/uploads/2024/01/AI-for-teachers-image-generated-by-DALL-E-owned-by-Paul-Cancellieri-Paul-Cancellieri.png", 
+      title: "EduMentor AI", 
+      description: "Built a Multi-Agentic Learning System using LangGraph and LangChain that generates personalized study roadmaps and lessons tailored to student preferences and goals. \
+                    Designed agents for learner profiling, curriculum design, resource curation, and lesson generation to create adaptive and engaging learning experiences. \
+                    Showcased the potential of agentic AI in EdTech by enabling scalable, dynamic, and personalized tutoring solutions." 
+    },
   ];
   return (
       <motion.div 
@@ -35,19 +47,19 @@ const Projects = (props: Props) => {
                   whileInView={{opacity: 1, y: 0}}
                   transition={{duration: 1.2}}
                   viewport={{once:true}}
-                  src = "https://cdn.sanity.io/images/ltuexkre/production/af7ca99b5a796d0698cf9121a4a0795b5022b6be-666x375.png" 
+                  src = {project.src} 
                   alt = ""
-                  className = "w-120 h-70"
+                  className = "w-100 h-60"
                 />
                 <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
                   <h4 className = "text-4xl font-semibold text-center">
                     <span className = "underline decoration-[#F7AB0A]/50">
                         Project {i + 1} of {projects.length}:
                     </span>{" "}
-                    UPS clone
+                    {project.title}
                   </h4>
                   <p className="text-lg text-center md:text-left">
-                    Netflix 2.0 app that has a Log In and Log Out Authentication with Google. It has a beautiful Home Screen with all the movies looking just like Netflix. There is also a subscription page where you can see your active monthly subscription. We also use Stripe Payments for the monthly Netflix Subscriptions!
+                    {project.description}
                   </p>
                 </div>
               </div>
