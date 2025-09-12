@@ -4,9 +4,8 @@ import React from 'react'
 import {motion} from 'framer-motion';
 import ExperienceCard from './ExperienceCard';
 
-type Props = {}
 
-const Experience = (props: Props) => {
+const Experience = () => {
   return (
         <motion.div 
             initial = {{opacity: 0}}

@@ -4,9 +4,8 @@ import React from 'react'
 import {motion} from 'framer-motion';
 import image from "../src/app/Sumedh_full.jpg";
 
-type Props = {}
 
-const About = (props: Props) => {
+const About = () => {
   return (
     <motion.div 
         initial = {{opacity: 0}}

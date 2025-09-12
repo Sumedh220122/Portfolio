@@ -6,9 +6,8 @@ import image from "../src/app/Sumedh.jpeg";
 import Link from 'next/link';
 import BackgroundCircles from './BackgroundCircles';
 
-type Props = {}
 
-const Hero = (props: Props) => {
+const Hero = () => {
   const [text, count] = useTypewriter({
         words: ["Backend Developer", "AI and ML Enthusiast"],
         loop: true,
